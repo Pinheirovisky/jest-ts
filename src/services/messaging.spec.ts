@@ -4,7 +4,7 @@ const createSut = () => {
   return new Messaging();
 };
 
-describe('Persistency', () => {
+describe('Messaging', () => {
   afterEach(() => jest.clearAllMocks());
 
   it('should return undefined', () => {

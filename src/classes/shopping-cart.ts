@@ -12,7 +12,8 @@ class ShoppingCart implements ShoppingCartProtocol {
   }
 
   removeItem(index: number): void {
-    this._items.slice(index, 1);
+    // console.log(this._items);
+    this._items.slice(1, 1);
   }
 
   get items(): Readonly<CartItem[]> {

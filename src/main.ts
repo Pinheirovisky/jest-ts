@@ -54,6 +54,8 @@ shoppingCart.addItem(new Product('Bermuda', 39.95));
 shoppingCart.addItem(new Product('Tenis', 129.5));
 
 console.log(shoppingCart.items);
+shoppingCart.removeItem(2);
+console.log(shoppingCart.items);
 console.log(shoppingCart.total());
 console.log(shoppingCart.totalWithDiscount());
 console.log(order.orderStatus);
